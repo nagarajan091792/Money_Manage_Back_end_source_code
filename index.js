@@ -257,7 +257,7 @@ as.get("/portal/dashboard",authenticate, async function (req, res) {
       }
     })
 as.get("/", (req, res) =>
-  res.send(`Server Running`)
+  res.send(`Server Active`)
 );
 
 as.listen(process.env.PORT || 3000)
