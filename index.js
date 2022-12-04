@@ -11,7 +11,7 @@ const SECRET=process.env.SECRET;
 
 as.use(express.json());
 as.use(cors({
-    orgin: "*"
+    orgin: "http://localhost:3000/"
 }));
 
 const authenticate=function(req,res,next){
